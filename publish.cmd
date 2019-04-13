@@ -1,0 +1,1 @@
+az bot publish --resource-group my-js-test-bot -n my-js-test-bot --subscription e307e2ec-a287-4028-b79d-c773901ee292 -v v4 --proj-name "index.js" --verbose --code-dir "." 

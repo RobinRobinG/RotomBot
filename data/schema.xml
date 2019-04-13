@@ -1,0 +1,17 @@
+<pokedex>
+  <pokemon>
+    <species></species>
+    <dex></dex>
+    <type></type>
+    <ability></ability>
+    <dream></dream>
+    <HP></HP>
+    <ATK></ATK>
+    <DEF></DEF>
+    <SPD></SPD>
+    <SATK></SATK>
+    <SDEF></SDEF>
+    <experience></experience>
+    <rateType></rateType>
+  </pokemon>
+</pokedex>

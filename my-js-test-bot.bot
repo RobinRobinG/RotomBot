@@ -1,0 +1,84 @@
+{
+    "name": "my-js-test-bot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "3",
+            "name": "my-js-test-bot",
+            "tenantId": "3a61b83a-6c66-40c2-a13a-533c877c8bd1",
+            "subscriptionId": "e307e2ec-a287-4028-b79d-c773901ee292",
+            "resourceGroup": "my-js-test-bot",
+            "serviceName": "my-js-test-bot",
+            "appId": "9005ad79-3665-46a6-b195-bdf5474d4b3f"
+        },
+        {
+            "type": "endpoint",
+            "id": "90",
+            "name": "development",
+            "appId": "9005ad79-3665-46a6-b195-bdf5474d4b3f",
+            "appPassword": "B3pHDIHyF46fNCfGr/WH4g==!3++MShP5X274IrvyJmfx/JLhirhP6gKXIjT2gdsX7jU=",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "2",
+            "name": "production",
+            "appId": "9005ad79-3665-46a6-b195-bdf5474d4b3f",
+            "appPassword": "E8n2w8jgZ38SE5NOyt5HVw==!8aAda29NgK+g3ny7Hhozkp3M3KP/j0XUHisg1Doq2Iw=",
+            "endpoint": "https://my-js-test-bot.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "9005ad79-3665-46a6-b195-bdf5474d4b3f",
+            "appPassword": "7thqhru+S0/Hr+DpgmYCrQ==!6cG/xp2iq0o3wX4ouk3aOwi+3ivrAnXpEzD4tMhLEwo=",
+            "endpoint": "https://my-js-test-bot.azurewebsites.net/api/messages",
+            "id": "67"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "3a61b83a-6c66-40c2-a13a-533c877c8bd1",
+            "subscriptionId": "e307e2ec-a287-4028-b79d-c773901ee292",
+            "resourceGroup": "my-js-test-bot",
+            "name": "my-js-test-bot",
+            "serviceName": "my-js-test-bot",
+            "instrumentationKey": "UxLg6/3Ggx7J4Yjfo7oEhw==!Olhs4B63yWRjc8X+5k3WtcubLRoF3E4O3eIYMuNKTcK7hvMKheNqofdCVAhHYUhS",
+            "applicationId": "f9b85731-bdb8-4437-89c2-601d0ce59014",
+            "apiKeys": {},
+            "id": "5"
+        },
+        {
+            "type": "blob",
+            "name": "myjstestbot",
+            "serviceName": "myjstestbot",
+            "tenantId": "3a61b83a-6c66-40c2-a13a-533c877c8bd1",
+            "subscriptionId": "e307e2ec-a287-4028-b79d-c773901ee292",
+            "resourceGroup": "my-js-test-bot",
+            "connectionString": "Pq6t0otB6TayNgu0IadhQQ==!Mb4dNu8dorPDz47XmyfwDWfDEiPsAXxTmpm2SkKo8BawTVz6FZK7FXtW7+C9nSHdIwI1Fsk4ETZvQwc9T+L1POCc+qw2Kp7JAGH23VZ+Z4SXfashPco5SOYB1yyJiGSy19gqm3a5aJPQjNvcWpYmvLXcP/BgBFwAr0q8ft+ZHy23/tVvtzFWVaQ5MuRZYDfQwfO4Tk/6nniNps2klCh8iHQsnM5FH1KgQv30DeP7vyR+MbWBADlM6ywzsge5NYNd",
+            "container": null,
+            "id": "183"
+        },
+        {
+            "type": "qna",
+            "name": "poke-bot-kb",
+            "kbId": "7f8151cf-04f7-43ae-a70a-f25452d65757",
+            "hostname": "https://poke-bot-qna-service.azurewebsites.net/qnamaker",
+            "endpointKey": "7cI/zwm48aTJurAHRa4EAw==!AAaLV56vluVu1lDKvyPsoU7vGgZYqScS07a2VbzTd/KgWC9PMP5IuQr5Jh3byP5o",
+            "subscriptionKey": "w5yDqhrktsemRaVC/iFuhA==!BYpk8hZOXWHu5hZ4+sxi5WIDjcHRaRr0RwzZGmHluAOVxIjK/tIYdkQbVr9io6qC",
+            "id": "123"
+        },
+        {
+            "type": "luis",
+            "name": "pokeBot",
+            "appId": "16358163-30a6-45e3-add8-a60ec2c65543",
+            "version": "0.1",
+            "subscriptionKey": "N19BGkVEaDZKYnZiSTzHPg==!QAfoiJYPjUrUFiR/EstZizbWq9NkOaN4Hl37/pths3sYyH0EUnQaVxLwY6FvYqfO",
+            "authoringKey": "eIIBidZc7DGAFJDj3PYRmQ==!6BDoP9XjG+CYUWTVtjm3zC0S5gj7R76KoPOrR/UamUzLuZ3zi67vthL9gvudLsuj",
+            "region": "westus",
+            "id": "300"
+        }
+    ],
+    "padlock": "51sRdqSxGNM+qNCcGW2Kzw==!NPR7531ekuddchZStCBRXCby+zU3R17sBPHmtyH2a2oAyNBZbxnipXvRdw67fo7n",
+    "version": "2.0"
+}

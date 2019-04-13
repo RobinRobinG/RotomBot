@@ -1,0 +1,40 @@
+{
+    "name": "my-js-test-bot",
+    "version": "1.0.0",
+    "description": "this is a simple bot in javascript with node.js",
+    "author": "Generated using Microsoft Bot Builder Yeoman generator v4.2.6",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint .",
+        "start": "node ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com"
+    },
+    "dependencies": {
+        "botbuilder": "^4.2.0",
+        "botbuilder-ai": "^4.3.4",
+        "botframework-config": "^4.2.0",
+        "cheerio": "^1.0.0-rc.3",
+        "convert-csv-to-json": "0.0.14",
+        "csv-parse": "^4.4.0",
+        "csv-parser": "^2.2.0",
+        "dotenv": "^6.1.0",
+        "pretty": "^2.0.0",
+        "request": "^2.88.0",
+        "restify": "^7.2.3"
+    },
+    "devDependencies": {
+        "eslint": "^5.8.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^8.0.0",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "nodemon": "^1.18.7"
+    }
+}
